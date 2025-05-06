@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/duration.js",
+      "src": "api/audio-info.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/api/duration",
-      "dest": "api/duration.js"
+      "src": "/api/audio-info",
+      "dest": "api/audio-info.js"
     }
   ]
 }
